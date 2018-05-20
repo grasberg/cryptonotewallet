@@ -15,6 +15,7 @@ set(CN_CURRENCY_TICKER "XFC")
 **3. Set symbolic link to coin sources at the same level as `src`. For example:**
 
 ```
+(for windows mklink /J E:\Dokument\GitHub\cryptonotewallet\cryptonote E:\Dokument\GitHub\gnixcoin)
 ln -s ../cryptonote cryptonote
 ```
 
