@@ -9,6 +9,9 @@ WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
 OUTPUT_VARIABLE GIT_REVISION)
 
 set(CRYPTONOTE_LIB cryptonote)
+set(CMAKE_PREFIX_PATH "E:/qt/5.10.1/msvc2013_64")
+set(BOOST_LIBRARYDIR "C:/local/boost_1_58_0/lib64-msvc-12.0")
+set(BOOST_ROOT "C:/local/boost_1_58_0")
 
 include_directories(${CMAKE_BINARY_DIR}
     src
